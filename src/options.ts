@@ -946,18 +946,18 @@ const options = mkOptions({
         layouts: opt<BarLayouts>({
             '1': {
                 left: ['dashboard', 'workspaces', 'windowtitle'],
-                middle: ['media'],
+                middle: [],
                 right: ['volume', 'clock', 'notifications'],
             },
             '2': {
                 left: ['dashboard', 'workspaces', 'windowtitle'],
-                middle: ['media'],
+                middle: [],
                 right: ['volume', 'clock', 'notifications'],
             },
             '0': {
                 left: ['dashboard', 'workspaces', 'windowtitle'],
-                middle: ['media'],
-                right: ['volume', 'network', 'bluetooth', 'battery', 'systray', 'clock', 'notifications'],
+                middle: [],
+                right: ['updates', 'volume', 'network', 'bluetooth', 'systray', 'clock', 'notifications'],
             },
         }),
         launcher: {
